@@ -10,11 +10,13 @@ public class LocomotionController : MonoBehaviour
     public InputHelpers.Button teleportActivationButton;
     public float activationthreshhold = 0.1f;
 
+    public bool EnableTeleport { get; set; } = true;
+
 
     // Update is called once per frame
     void Update()
     {
-        TeleportRay.gameObject.SetActive(CheckIfActivated(TeleportRay)); 
+        TeleportRay.gameObject.SetActive(EnableTeleport && CheckIfActivated(TeleportRay)); 
     }
 
     public bool CheckIfActivated(XRController controller)
