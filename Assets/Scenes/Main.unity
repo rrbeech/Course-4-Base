@@ -14,7 +14,7 @@ OcclusionCullingSettings:
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
-  m_Fog: 1
+  m_Fog: 0
   m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_FogMode: 3
   m_FogDensity: 1
@@ -4326,7 +4326,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9b2da4c5d89e9441a8249d5a14c9c95, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: -5
+  speed: -8
   bullet: {fileID: 8886247556499733541, guid: 7b0a5a840520ab248938277a465df384, type: 3}
   barrel: {fileID: 1839950121}
   audioSource: {fileID: 1839950128}
